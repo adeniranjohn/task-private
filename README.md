@@ -1,5 +1,5 @@
 # task-private
-A  backend api endpoint that uses github app to get the list of all private repositories from Github account.
+A  backend api endpoint that uses github app using Adonisjs to get the list of all private repositories from Github account.
 
 ## Install
 ** Installation **
@@ -19,10 +19,10 @@ Default port is running on 127.0.0.1:3333 - it returns an object with
 
 ## Github Request
 ```
-curl -i -H 'Authorization: token GITHUB_TOKEN' http://localhost:3333/github?q:user=**username**&visibility=**visibiltiy**&limit=**limit**&page=**page** 
+curl -i -H 'Authorization: token GITHUB_TOKEN' http://localhost:3333/github?q:user=username&visibility=visibiltiy&limit=limit&page=page 
 ```
 
-Environment Variables
+** Environment Variables **
 GITHUB_TOKEN = This is token created from your github profile (Token classic)
 `
 ** Query **
@@ -33,6 +33,6 @@ visibility = default is private, options - (private | public)
 `
 ## Build
 
-
-## 
-
+```
+npm run build
+```
