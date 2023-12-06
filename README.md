@@ -24,13 +24,14 @@ curl -i -H 'Authorization: token GITHUB_TOKEN' http://localhost:3333/github?q:us
 
 **Environment Variables**
 GITHUB_TOKEN = This is token created from your github profile (Token classic)
-`
+
 **Query**
+```
 limit = default is 10
 username =  Github username, default is adeniranjohn
 page = default is 0
 visibility = default is private, options - (private | public)
-`
+```
 ## Build
 
 ```
